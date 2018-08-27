@@ -11,4 +11,18 @@ end
 funcsave github
 ```
 
-* b) Save ~/.config/fish/functions/{some_function_name}.fish
+```
+alias development "cd <folder location>"
+funcsave development
+```
+
+
+* b) 
+  #### Functions
+    ``` 
+    Create ~/.config/fish/functions/{some_function_name}.fish 
+    ```
+  #### Define alias in config file
+   ```
+   alias rmi="rm -i"
+   ```
