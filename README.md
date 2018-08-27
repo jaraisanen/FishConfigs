@@ -1,12 +1,12 @@
 ## Quick way to config fish
 
-### Functions
+### Functions (and aliases)
 
-function github
-    # start the ssh-agent in the background
-    eval (ssh-agent -c);
-    ssh-add <location>
-end
+> a) function github
+>    # start the ssh-agent in the background
+>    eval (ssh-agent -c);
+>    ssh-add <location>
+> end
+> funcsave github
 
-### Alias 
-
+> b) Save ~/.config/fish/functions/{some_function_name}.fish
