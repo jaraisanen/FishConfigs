@@ -17,12 +17,12 @@ funcsave development
 ```
 
 
-* b) Config files
+* b) Fish files
   #### Functions
     ``` 
     Create ~/.config/fish/functions/{some_function_name}.fish 
     ```
-  #### Define alias in config file
+  #### Define alias in master config file
    ```
    alias rmi="rm -i"
    ```
