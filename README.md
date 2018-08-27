@@ -2,11 +2,13 @@
 
 ### Functions (and aliases)
 
-> a) function github
->    # start the ssh-agent in the background
->    eval (ssh-agent -c);
->    ssh-add <location>
-> end
-> funcsave github
+* a) Funcsave
+```
+function github
+  eval (ssh-agent -c);
+  ssh-add <location>
+end
+funcsave github
+```
 
-> b) Save ~/.config/fish/functions/{some_function_name}.fish
+* b) Save ~/.config/fish/functions/{some_function_name}.fish
