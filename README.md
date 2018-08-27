@@ -2,7 +2,7 @@
 
 ### Functions (and aliases)
 
-* a) Funcsave
+* a) Funcsave from shell
 ```
 function github
   eval (ssh-agent -c);
@@ -17,7 +17,7 @@ funcsave development
 ```
 
 
-* b) 
+* b) Config files
   #### Functions
     ``` 
     Create ~/.config/fish/functions/{some_function_name}.fish 
