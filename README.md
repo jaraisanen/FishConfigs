@@ -1,4 +1,4 @@
-## Quick way to config fish
+## Quick way to config fish shell
 
 ### Functions (and aliases)
 
