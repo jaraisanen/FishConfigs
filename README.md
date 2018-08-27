@@ -6,7 +6,7 @@
 ```
 function github
   eval (ssh-agent -c);
-  ssh-add <location>
+  ssh-add <ssh-key location>
 end
 funcsave github
 ```
